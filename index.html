@@ -6,10 +6,36 @@
   <script src='https://js.tito.io/v2' async></script>
   <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
 	<meta charset="utf-8"  />
+  <style media="screen">
+      .content {
+        text-align: center;
+        max-width: 700px;
+        margin: 50px auto 45px;
+      }
+      body {
+        font-family: "Helvetica", Arial, sans-serif;
+      }
+      code {
+        font-family: "Consolas", Courier, serif;
+        font-size: 16px;
+        color: #91609c;
+      }
+  </style>
 </head>
 
 <body>
+     <div class="content">
+       <img src="assets/logo.png" width="125">
+       <h1>Get your ticket now</h1>
+       <p>Try out our new widget in test mode below. Use card number <code>4242 4242 4242 4242</code>; expiry date <code>01/20</code> and CVV <code>123</code>.</p>
+     </div>
      <tito-widget event="walkthrough/betaconf"></tito-widget>
+     <div class="content">
+       <h2>Fun things to try…</h2>
+       <p>Add <code>?discount_code=half-price</code> to the end of the URL and hit enter. A 50% discount is applied automatically.</p>
+       <p>Add <code>?locale=es</code> to the end of the URL and hit enter. The widget appears in Spanish.</p>
+    </div>
+
 
 </body>
 </html>
