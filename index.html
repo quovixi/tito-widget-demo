@@ -3,7 +3,8 @@
 
 <head>
 	<title>Widget Demo</title>
-  <script src='https://js.staging.tito.io/v2' async></script>
+  <script src='https://js.staging.tito.io/v1' async></script>
+  <link rel="stylesheet" type="text/css" href='https://css.tito.io/v1.1' />
   <link rel="icon" type="image/png" href="assets/favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="assets/favicon-16x16.png" sizes="16x16" />
 	<meta charset="utf-8"  />
@@ -35,13 +36,10 @@
      <div class="content">
        <a href="/tito-widget-demo/#/" onclick="location.reload()"><img src="assets/logo.png" width="125"></a>
        <h1>Get your ticket now</h1>
-       <p>Try out our new widget in test mode below. Use card number <code>4242 4242 4242 4242</code>, expiry date <code>01/20</code> and CVV <code>123</code>.</p>
+       <p>Try out our widget in test mode below. Use card number <code>4242 4242 4242 4242</code>, expiry date <code>01/20</code> and CVV <code>123</code>.</p>
      </div>
      <tito-widget event="vickyc/exampleconf" source="widget"></tito-widget>
      <div class="content">
-       <h2>Try this…</h2>
-       <p>Add <a href="#/?discount_code=half-price" onclick="location.reload()">?discount_code=half-price</a> to the end of the URL to apply a 50% discount.</p>
-       <p>Add <a href="#/?locale=es" onclick="location.reload()">?locale=es</a> to the end of the URL to display the widget in Spanish.</p>
     </div>
 
 
